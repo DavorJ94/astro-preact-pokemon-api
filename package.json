@@ -1,0 +1,17 @@
+{
+  "name": "astro-preact-pokemon-api",
+  "version": "0.0.1",
+  "description": "Astro website builder with Preact is used to build a pokemon application.",
+  "author": "Davor Jovanovic",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "astro": "^0.19.1"
+  },
+  "dependencies": {
+    "@astrojs/renderer-preact": "^0.2.1"
+  }
+}

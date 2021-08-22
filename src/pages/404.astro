@@ -1,0 +1,32 @@
+---
+import MissingPage from "../components/404.jsx";
+import Layout from "../layouts/BaseLayout.jsx";
+import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Astro | Missing page</title>
+      <meta
+        name="description"
+        content="Missing page, go back to home page."
+      >
+      <meta
+        name="keywords"
+        content="HTML, CSS, JavaScript, React, Astro"
+      >
+      <meta name="author" content="Davor Jovanovic" >
+
+      <link rel="stylesheet" href="/style/global.css">
+  </head>
+  <body>
+      <main>
+      <Header />
+      <Layout>
+        <MissingPage />
+      </Layout>
+      </main>
+  </body>
+</html>
